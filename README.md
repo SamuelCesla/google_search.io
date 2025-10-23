@@ -1,1 +1,1 @@
-# https://SamuelCesla.github.io/google_search
+# google_search.io

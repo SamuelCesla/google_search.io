@@ -23,33 +23,43 @@
     </div>
 
     <div class="container">
-        <ul>
-            <li>
-                <p>all pages with these words...</p>
-                <form action="https://www.google.com/search">
-                    <input type="text" name="q">
-                    <input type="submit" value="Google Search">
-            </li>
-            <li>
-                <p>this exact word...</p>
-                <form action="https://www.google.com/search">
-                    <input type="text" name="q">
-                    <input type="submit" value="Google Search">
-            <li>
-                <p>any of these words...</p>
-                <form action="https://www.google.com/search">
-                    <input type="text" name="q">
-                    <input type="submit" value="Google Search">
-            <li>
-                <p>none of these words...</p>
-                <form action="https://www.google.com/search">
-                    <input type="text" name="q">
-                    <input type="submit" value="Google Search">
-            </li>
-            </li>
-            </li>
-            </form>
-        </ul>
+        <!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <title>Jednoduchý Google Advanced Search</title>
+</head>
+<body>
+
+  <form action="https://www.google.com/search" method="get" target="_blank">
+    <ul>
+      <li>
+        <p>Všechny tyhle slova:</p>
+        <input type="text" name="as_q">
+      </li>
+
+      <li>
+        <p>Přesně tyhle slova:</p>
+        <input type="text" name="as_epq">
+      </li>
+
+      <li>
+        <p>Nejaké z těhle slov:</p>
+        <input type="text" name="as_oq">
+      </li>
+
+      <li>
+        <p>Žádné z těhle slov:</p>
+        <input type="text" name="as_eq">
+      </li>
+    </ul>
+
+    <input type="submit" value="Google Search">
+  </form>
+
+</body>
+</html>
+
     </div>
     <footer>
         <a href="https://jigsaw.w3.org/css-validator/check/referer">
